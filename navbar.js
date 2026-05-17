@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <li><a href="#">Solicitar Design / Planejamento</a></li>
             <li><a href="#">Acompanhar Pedido</a></li>
             <li><a href="contatosuporte.html">Contato & Suporte</a></li>
-            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Sobre Nós</a></li>
         </ul>
     </nav>
     `;
