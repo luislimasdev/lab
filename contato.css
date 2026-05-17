@@ -1,0 +1,87 @@
+/* Seção de Contato - Exclusivo da Página Suporte */
+.contact-section {
+  padding: 80px 5%;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+  color: white;
+}
+
+.contact-container {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-container h2 {
+  font-size: 2.5rem;
+  color: #8e6d5a;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.contact-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+
+.card:hover {
+  border-color: #8e6d5a;
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.btn-contact {
+  display: inline-block;
+  background-color: #8e6d5a;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.btn-contact:hover {
+  background-color: #a37e69;
+}
+
+/* Ajuste dos cards para Celular */
+@media (max-width: 768px) {
+  .contact-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
