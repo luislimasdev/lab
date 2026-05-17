@@ -116,3 +116,46 @@ body {
     margin-left: 0;
   }
 }
+
+/* --- DOWNBAR (FOOTER) --- */
+.footer {
+  background-color: #000000;
+  border-top: 2px solid #8e6d5a; /* Linha bronze combinando com o topo */
+  padding: 40px 5% 30px 5%;
+  width: 100%;
+  margin-top: auto; /* Empurra o footer para o final da página */
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Espaço entre os ícones e o texto */
+}
+
+/* Estilização dos Ícones */
+.footer-socials {
+  display: flex;
+  gap: 25px; /* Espaço entre as redes sociais */
+}
+
+.footer-socials a {
+  color: #ccc;
+  font-size: 1.4rem; /* Tamanho dos ícones */
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+/* Efeito de passar o mouse (fica bronze e sobe de leve) */
+.footer-socials a:hover {
+  color: #8e6d5a;
+  transform: translateY(-3px);
+}
+
+/* Estilização do Copyright */
+.footer-copyright p {
+  color: #666;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
