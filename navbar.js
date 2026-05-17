@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Solicitar Design</a></li>
+            <li><a href="#">Solicitar Design / Planejamento</a></li>
             <li><a href="#">Acompanhar Pedido</a></li>
             <li><a href="contatosuporte.html">Contato & Suporte</a></li>
             <li><a href="#">Sobre nós</a></li>
